@@ -9,6 +9,7 @@ let isPlaying = false;
 let currentWord;
 let interval; 
 
+
 let input = document.querySelector('#input'); 
 
 let scorelabel = document.querySelector('#score');
@@ -35,7 +36,7 @@ function init()
    updateDisplay(); 
 
    timelabel.style.color = "#ffffff";
-   word.style.color = "#00ff00";
+   word.style.color = "#00ff10";
    isPlaying = false;
    input.disabled  = true;
    input.value = "";
