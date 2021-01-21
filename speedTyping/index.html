@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="/bootstrap-4.0.0/bootstrap-4.0.0/dist/css/bootstrap.min.css"/>
+    <link  href="./style.css"  rel="stylesheet"/> 
+    <title>Speed Typing Game </title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row bg-dark">
+            <div class="col">
+                <h3 class="mb-3  text-center  text-white"> Welcome to Type and Smash </h2>
+            </div>
+            
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-8 offset-2">
+                <h5 class="mb-3 text-center text-white"> Type the word in <span class="text-success"> 5 </span> secs</h5>
+
+                <br/>
+
+                <h1  class="text-white text-center" ><span id="word">PRESS START</span></h1>
+
+                <br/>
+
+                <form class="mb-3">
+                    <input type="text" id="input" class="form-control form-control-lg"
+                     placeholder="">
+                     <h5 id="message"> </h5>
+                </form>
+                <br/>
+
+              <section class="row text-white">
+                  <div class="col-md-10 offset-1">
+                    <div class="row">
+
+                  
+                    <div class="col-md-6">
+                        <h4>Time Left: <span id="time"> 0 </span> secs</h4>
+                       </div>
+                       <div class="col-md-6">
+                           <h4 class="text-center"> Score: <span id="score">0</span></h4>
+                       </div>
+
+                       <br/>
+                       <br/>
+                       <br/>
+                       
+                       <div class="text-center offset-5"> <input id="start" class="btn btn-lg btn-info" type="button" value="Start"/> </div>
+                  </div>
+              
+                  </div>
+              </section>
+
+
+            </div>
+        </div>
+    </div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

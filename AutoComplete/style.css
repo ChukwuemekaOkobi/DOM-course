@@ -1,0 +1,14 @@
+body{
+    background-color: #252525;
+}
+
+.card
+{
+    background-color: black;
+    color: #bbbbbb;
+}
+
+#converts
+{
+    visibility:hidden;
+}
